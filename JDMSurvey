@@ -1,0 +1,186 @@
+</form><!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+</style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <header class="header">
+        <h1 title id="title" class="text-center">JDM Car Survey</h1>
+        <p id="description" class="description">This is a survey to help better understand what type of people fit the jdm fan demographic and what jdm cars each specific person <b style="color: red">prefers.</b> Thank you ahead of time for your cooperation and your participation</p>
+      </header>
+      <form id="survey-form" class="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+          </div>
+          <div class="row">
+            <div class="label">
+              <label for="email" id="email-label"><span>*</span>Email:</label>
+            </div>
+              <div class="row">
+                <div class="label">
+                  <input type="email" id="email" name="email" placeholder="Enter your email" required />
+       
+                </div>
+           
+              <div class="row">
+                <div class="label">
+                  <label for="age" id="number-label">Age:</label>
+                </div>
+                <input type="number" id="number" name="age" placeholder="Age" min="14" max="125" />
+              </div>
+           
+          <!-- checkboxes for languages, textarea for favorite thing about coding, textarea for additional comments, submit button, style it up! -->
+          <div class="form-group">
+            <p>Which era of JDM cars is your favorite?</p>
+            <select id="dropdown" name="era" class="form-control" required>
+              <option disabled selected value> Select your favorite JDM era</option>
+              <option value="1980's">1980's</option>
+              <option value="1990's">1990's</option>
+              <option value="Early2000's">Early 2000's</option>
+              <option value="late2000's">Late 2000's</option>
+              <option value="present/future">Present/Future</option>
+              <option value="idonthaveone">I don't have one</option>
+            </select>
+          </div>
+          <div id="form-control">
+            <p>Out of these cars made in the 80's, which is your favorite?</p>
+            <select id="dropdown" name="80scars" class="form-control" required>
+              <option disabled selected value> Select your favorite JDM car made in the 80's</option>
+              <option value="mazdarx7>Mazda RX-7 FC(1980's body)</option>
+  <option value=" toyotasupra">Toyota supra (1980's body mk3)</option>
+              <option value="toyotamr2">Toyota MR2</option>
+              <option value="Hondacrx">Honda Crx</option>
+              <option value="toyotatruenoae86">Toyota Trueno AE86</option>
+              <option value="nissanfairldy">Nissan Fairlady (280zx)</option>
+              <option value="nissangtrr32">Nissan GTR R32</option>
+              <option value="idonthaveone">I don't have one</option>
+            </select>
+          </div>
+          <div id="form-control">
+            <p>Out of these cars made in the 90's, which is your favorite?</p>
+            <select id="dropdown" name="90scars" class="form-control" required>
+              <option disabled selected value> Select your favorite JDM car made in the 90's</option>
+              <option value="hondansx">Honda NSX</option>
+              <option value="hondaintegratyper">Honda Integra Type R</option>
+              <option value="90shondacivic">90's Honda Civic</option>
+              <option value="mazdarx7fd">Mazda RX-7 FD</option>
+              <option value="nissansilvia">Nissan Silvia</option>
+              <option value="toyotasupramk4">Toyota Supra Mk4</option>
+              <option value="mitsubishieclipsegen2">Mitsubishi Eclipse (Gen 2)</option>
+              <option value="mitsubishilancerevo6">Mitsubishi Lancer Evo 6</option>
+              <option value="nissan300zx">Nissan 300Zx</option>
+              <option value="nissangtrr33">Nissan GTR R33</option>
+              <option value="nissan180sx">Nissan 180sx</option>
+              <option value="idonthaveone">I don't have one</option>
+            </select>
+          </div>
+          <div id="form-control">
+            <p>Out of these cars made in the early 2000's, which is your favorite?</p>
+            <select id="dropdown" name="early2000scars" class="form-control" required>
+              <option disabled selected value> Select your favorite JDM car made in the early 2000's</option>
+              <option value="toyotamr2spyder">Toyota MR2 (Spyder)</option>
+              <option value="hondas200">Honda S200</option>
+              <option value="7thgenhondacivic">7th Gen Honda Civic(2000-2005)</option>
+              <option value="8thand9thgenhondacivic">8th And 9th Gen Honda Civic</option>
+              <option value="3rdgenmitsubishieclipse">3rd Gen Mitsubishi Eclipse(200-2005)</option>
+              <option value="toyotacelica">Toyota Celica</option>
+              <option value="acurarsx">Acura Rsx</option>
+              <option value="nissan350and370z">Nissan 350 And 370z</option>
+              <option value="idonthaveone">I don't have one</option>
+            </select>
+          </div>
+          <div id="form-control">
+            <p>Out of these cars made in the late 2000's, which one is your favorite?</p>
+            <select id="dropdown" name="late2000scars" class="form-control" required>
+              <option disabled selected value> Select your favorite JDM car made in the late 2000's</option>
+              <option value="mitsubishievox">Mitsubishi Evo X</option>
+              <option value="hondaaccord">Honda Accord(2010)</option>
+              <option value="hondafit">Honda Fit</option>
+              <option value="nissangtrr35">
+                Nissan GTR R35</option>
+              <option value="acuratsx/tlx">Acura Tsx/Tlx</option>
+              <option value="acuranasx">Acura Nsx</option>
+              <option value="toyota86">Toyota 86(late2000's)</option>
+              <option value="idonthaveone">I don't have one</option>
+            </select>
+          </div>
+          <div id="form-control">
+            <p>Out of these cars which are seen made in present day or soon to be made, which is your favorite?</p>
+            <select id="dropdown" name="present/future" class="form-control" required>
+              <option disabled selected value> Select your favorite JDM car made in the present/future</option>
+              <option value="hondaccord">Honda Accord(2022)</option>
+              <option value="hondacivic">Honda Civic(2022)</option>
+              <option value="toyota86">Toyota 86(2022)</option>
+              <option value="subaruwrx">Subaru WRX(2022)</option>
+              <option value="supramk5">Supra Mk5(2022)</option>
+              <option value="acuratlxtypes">Acura Tlx Type S(2022)</option>
+              <option value="toyotacelica">Toyota Celica(future)</option>
+              <option value="subarubrz">Subaru BRZ(2022)</option>
+              <option value="idonthaveone">I don't have one</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <p>Would you recommend a JDM car to a friend over other vehicles?</p>
+            <label>
+              <input name="user-recommend" value="Who wouldn't!" type="radio" class="input-radio" checked>Who Wouldn't!</label>
+            <label>
+              <input name="user-recommend" value="maybe" type="radio" class="input-radio">
+              maybe
+            </label>
+            <label>
+              <input name="user-recommend" value="no" type="radio" class="input-radio">
+              no
+            </label>
+            <div id="form-group">
+              <form id="survey-form">
+                <div class="form-group">
+                  <label id="favorite-car-label" for="favoritecar">What is your all-time favorite JDM car?</label>
+                  <input type="text" name="favoritecar" id="name" class="form-control" placeholder="Enter your favorite JDM car" required>
+                </div>
+                <div class="form-group">
+                  <p>
+                    What is your favorite JDM car manufacturers?
+                    <span class="clue">(Check all that apply)</span>
+                  </p>
+
+                  <label><input name="prefer" value="honda" type="checkbox" class="input-checkbox">Honda</label>
+                  <label>
+                    <input name="prefer" value="toyota" type="checkbox" class="input-checkbox">Toyota</label>
+                  <label><input name="prefer" value="mitsubishi" type="checkbox" class="input-checkbox">Mitsubishi</label>
+                  <label><input name="prefer" value="subaru" type="checkbox" class="input-checkbox">Subaru</label>
+                  <label><input name="prefer" value="nissan" type="checkbox" class="input-checkbox">Nissan</label>
+                  <label><input name="prefer" value="mazda" type="checkbox" class="input-checkbox">Mazda</label>
+                  <label><input name="prefer" value="lexus" type="checkbox" class="input-checkbox">Lexus</label>
+                  <label><input name="prefer" value="Acura" type="checkbox" class="input-checkbox">Acura</label>
+                  <form id="survey-form" class="survey-form">
+                    <textarea id="survey-form" name="comments" rows="5" cols="33">
+Enter comments here...
+</textarea>
+                  </form>
+                  <form action = "https://wallpaperaccess.com/4k-jdm" method = "GET">
+                    <button type="submit" id="submit" class="submit-button">
+                      Submit for JDM gallery
+                    </button>
+                  </form>
+                </div>
+              </form>
+            </div>
+</body>
+    
+            
+              
+         
+   
+           
+
+</html>
